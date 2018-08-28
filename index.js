@@ -6,8 +6,6 @@ function fetchBooks() {
 }
 
 
-
-
 function renderBooks(json) {
   const main = document.querySelector('main')
   json.forEach(book => {
